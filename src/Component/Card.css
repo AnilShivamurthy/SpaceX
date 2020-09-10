@@ -1,0 +1,56 @@
+.single-card{
+    background-color: white;
+    height: 380px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 23px;
+}
+
+@media only screen and (max-width: 700px) {
+    .single-card{
+       width: 90%;
+    }
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.img-section{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 200px;
+}
+
+.card-img{
+    width:215px;
+    height: 200px;
+}
+
+.spacing{
+    margin-top: 10px;
+}
+
+.card-text{
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 215px;
+}
+
+.text-color{
+    color: blue;
+}
+
+.flight-number{
+    margin-left: 5px;
+}
+

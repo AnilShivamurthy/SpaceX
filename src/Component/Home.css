@@ -1,0 +1,51 @@
+.header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+.body-section{
+    display: block;
+    }
+}
+
+.filter-section{
+    width: 15%;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+.filter-section{
+    width: 95%;
+    height: auto;
+    }
+}
+
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    background-color: lightgrey;
+    width: 85%;
+}
+
+@media only screen and (max-width: 700px) {
+    .card-section{
+       margin-top: 30px;
+       width: 100%;
+    }
+}
+
+
+h5{
+    text-align: center;
+}
