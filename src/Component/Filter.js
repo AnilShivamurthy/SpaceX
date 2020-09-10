@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Button from './Button'
 import './Filter.css';
 import axios from 'axios';
 import { render } from '@testing-library/react';
